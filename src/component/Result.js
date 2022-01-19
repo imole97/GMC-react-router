@@ -1,10 +1,12 @@
 import React from 'react'
+// import withMovie from './withMovie'
 
-const Result = ({result}) => {
+
+const Result = ({movie}) => {
     return (
-        <div className='result'>
-            <img src={result.posterUrl} alt={result.title}/>
-            <h3>{result.title}</h3>
+        <div className='result' >
+            <img src={movie.posterUrl} alt={movie.title}/>
+            <h3>{movie.title} </h3>
         </div>
     )
 }
