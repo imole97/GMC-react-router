@@ -46,11 +46,7 @@ import MovieCard from '../MovieCard';
       
     
     return(
-        <div>
-            
-            <header>
-                <h1>Movie Database</h1>
-            </header>
+        <div>          
             <main>
                 <Filter handleInput={handleInput} search = {search} rating= {selectRating}/>
                 <MovieCard results = {state.results}/>
